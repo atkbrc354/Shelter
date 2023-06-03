@@ -1,0 +1,33 @@
+$green: #499A18
+$orange: #E06733
+$gray: #717171
+$dark-grey: #636060
+$Smoky-white: #EDF2EC
+$black: #010201
+
+@mixin inika-font
+    font-family: 'Inika', serif
+    font-weight: 400
+
+.container
+    width: 1440px
+    margin: auto
+
+.wrapper
+    max-width: 1219px
+    margin: 0 auto
+
+@mixin inter-font
+    font-family: 'Inter', sans-serif
+    font-weight: 400
+    color: $gray
+
+body
+    @include inter-font
+
+html
+    scroll-behavior: smooth
+
+*
+    padding: 0
+    margin: 0

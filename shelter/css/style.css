@@ -1,0 +1,24 @@
+.container {
+  width: 1440px;
+  margin: auto;
+}
+
+.wrapper {
+  max-width: 1219px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #717171;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
