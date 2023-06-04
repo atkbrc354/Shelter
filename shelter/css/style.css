@@ -1,17 +1,16 @@
 .container {
-  width: 1440px;
+  width: 1280px;
   margin: auto;
 }
 
 .wrapper {
-  max-width: 1219px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Geologica", sans-serif;
   font-weight: 400;
-  color: #717171;
 }
 
 html {
@@ -21,4 +20,40 @@ html {
 * {
   padding: 0;
   margin: 0;
+}
+
+.header {
+  background: url(../img/start-screen-gradient-background.jpg) no-repeat;
+}
+.header .container {
+  background: url(../img/start-screen-gradient-background.jpg) no-repeat;
+}
+.header .container .wrapper .header_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header .container .wrapper .header_wrapper .logo {
+  margin-top: 30px;
+}
+.header .container .wrapper .header_wrapper nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header .container .wrapper .header_wrapper nav ul li {
+  list-style-type: none;
+  padding-top: 46px;
+  padding-left: 20px;
+  color: #CDCDCD;
+}
+
+main .Not-only {
+  background: url(../img/start-screen-gradient-background.jpg) no-repeat;
+}
+main .Not-only .container {
+  background: url(../img/start-screen-gradient-background.jpg) no-repeat;
 }

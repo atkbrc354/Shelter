@@ -1,29 +1,29 @@
-$green: #499A18
-$orange: #E06733
+$purple-white: #FDDCC4
 $gray: #717171
-$dark-grey: #636060
-$Smoky-white: #EDF2EC
-$black: #010201
+$dark-grey: #292929
+$Smoky-white: #CDCDCD
+$black: #444444
 
-@mixin inika-font
-    font-family: 'Inika', serif
+
+@mixin geologica-font
+    font-family: 'Geologica', sans-serif
     font-weight: 400
 
 .container
-    width: 1440px
+    width: 1280px
     margin: auto
 
 .wrapper
-    max-width: 1219px
+    max-width: 1200px
     margin: 0 auto
 
-@mixin inter-font
-    font-family: 'Inter', sans-serif
-    font-weight: 400
-    color: $gray
+@mixin georgian-font
+    font-family: 'Noto Serif Georgian', serif
+    font-weight: 700
+    color: $dark-grey
 
 body
-    @include inter-font
+    @include geologica-font
 
 html
     scroll-behavior: smooth
@@ -31,3 +31,32 @@ html
 *
     padding: 0
     margin: 0
+
+.header  
+    background: url(../img/start-screen-gradient-background.jpg) no-repeat
+    .container
+        background: url(../img/start-screen-gradient-background.jpg) no-repeat
+        .wrapper
+            .header_wrapper
+                display: flex
+                justify-content: space-between
+                .logo
+                    margin-top: 30px
+                nav
+                    ul
+                        display: flex
+                        li
+                            list-style-type: none
+                            padding-top: 46px
+                            padding-left: 20px
+                            color: $Smoky-white
+
+main
+    .Not-only
+        background: url(../img/start-screen-gradient-background.jpg) no-repeat
+        .container
+            background: url(../img/start-screen-gradient-background.jpg) no-repeat
+            .wrapper
+
+
+
