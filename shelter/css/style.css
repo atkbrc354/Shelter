@@ -48,12 +48,97 @@ html {
   list-style-type: none;
   padding-top: 46px;
   padding-left: 20px;
+}
+.header .container .wrapper .header_wrapper nav ul li a {
   color: #CDCDCD;
+  text-decoration: none;
 }
 
 main .Not-only {
   background: url(../img/start-screen-gradient-background.jpg) no-repeat;
+  margin-bottom: 80px;
 }
 main .Not-only .container {
   background: url(../img/start-screen-gradient-background.jpg) no-repeat;
+}
+main .Not-only .container .wrapper .not-only-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .Not-only .container .wrapper .not-only-block .not-only-content {
+  margin-top: 253px;
+}
+main .Not-only .container .wrapper .not-only-block .not-only-content h1.not-only-title {
+  width: 370px;
+  font-size: 44px;
+  line-height: 130%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 42px;
+}
+main .Not-only .container .wrapper .not-only-block .not-only-content p.not-only-description {
+  font-size: 15px;
+  line-height: 160%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #CDCDCD;
+  margin-bottom: 42px;
+}
+main .Not-only .container .wrapper .not-only-block .not-only-content button.not-only-button {
+  background: #FDDCC4;
+  border-radius: 100px;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  padding: 15px 45px;
+  border: none;
+}
+main .Not-only .container .wrapper .not-only-block .start-screen-puppy {
+  margin-top: 110px;
+}
+main .About {
+  margin-bottom: 100px;
+}
+main .About .container .wrapper .about-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+main .About .container .wrapper .about-block .about-content h2.about-title {
+  width: 370px;
+  font-size: 35px;
+  line-height: 130%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 25px;
+}
+main .About .container .wrapper .about-block .about-content p.about-description {
+  width: 430px;
+  font-size: 15px;
+  line-height: 160%;
+  color: #4C4C4C;
+  margin-bottom: 25px;
+}
+main .About .container .wrapper .about-block .about-content p.about-description-botton {
+  width: 430px;
+  font-size: 15px;
+  line-height: 160%;
+  color: #4C4C4C;
 }
