@@ -53,6 +53,10 @@ html {
   color: #CDCDCD;
   text-decoration: none;
 }
+.header .container .wrapper .header_wrapper nav ul li a:hover {
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
 
 main .Not-only {
   background: url(../img/start-screen-gradient-background.jpg) no-repeat;
@@ -104,6 +108,12 @@ main .Not-only .container .wrapper .not-only-block .not-only-content button.not-
   padding: 15px 45px;
   border: none;
 }
+main .Not-only .container .wrapper .not-only-block .not-only-content button.not-only-button:hover {
+  cursor: pointer;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  background: #F1CDB3;
+}
 main .Not-only .container .wrapper .not-only-block .start-screen-puppy {
   margin-top: 110px;
 }
@@ -141,4 +151,129 @@ main .About .container .wrapper .about-block .about-content p.about-description-
   font-size: 15px;
   line-height: 160%;
   color: #4C4C4C;
+}
+main .Our-friends {
+  background: #F6F6F6;
+  padding-bottom: 100px;
+}
+main .Our-friends .container .wrapper h2.Our-friends-title {
+  padding-top: 80px;
+  width: 430px;
+  font-size: 35px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+main .Our-friends .container .wrapper .Our-friends-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 60px;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Arrow-left {
+  margin-top: 230px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  padding: 17px 13px;
+  height: 6px;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Arrow-left:hover {
+  background: #FDDCC4;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Arrow-right {
+  margin-top: 230px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  padding: 17px 13px;
+  height: 6px;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Arrow-right:hover {
+  background: #FDDCC4;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Our-friends-card {
+  background: #FAFAFA;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Our-friends-card .pets-katrine {
+  margin-bottom: 30px;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Our-friends-card .pets-jennifer {
+  margin-bottom: 30px;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Our-friends-card .pets-woody {
+  margin-bottom: 30px;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Our-friends-card p.Our-friends-name {
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 30px;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Our-friends-card button.card-button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: 41px;
+  background: #fff;
+  border-radius: 100px;
+  border: 2px solid #F1CDB3;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  padding: 15px 45px;
+  margin-bottom: 30px;
+}
+main .Our-friends .container .button-our-friends {
+  display: block;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  background: #F1CDB3;
+  border-radius: 100px;
+  border: none;
+  padding: 15px 45px;
+}
+main .Help {
+  margin-bottom: 100px;
+}
+main .Help .container .wrapper h2.help-title {
+  padding-top: 80px;
+  margin: 0 auto;
+  width: 390px;
+  font-size: 35px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 60px;
+}
+main .Help .container .wrapper .help-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 55px 162px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .Help .container .wrapper .help-cards .help-card .icon-pet-food {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
