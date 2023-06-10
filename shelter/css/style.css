@@ -265,7 +265,7 @@ main .Help .container .wrapper .help-cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 55px 162px;
+  gap: 55px 120px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: center;
@@ -276,4 +276,78 @@ main .Help .container .wrapper .help-cards .help-card .icon-pet-food {
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+main .Help .container .wrapper .help-cards .help-card .help-card-title {
+  font-size: 20px;
+  line-height: 115%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+main .In-addition {
+  background: #F6F6F6;
+  padding-bottom: 110px;
+}
+main .In-addition .container .wrapper .in-addition-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .In-addition .container .wrapper .in-addition-blocks .donation-dog {
+  margin-top: 91px;
+}
+main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-text {
+  margin-left: 30px;
+}
+main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-text .in-addition-title {
+  margin-top: 80px;
+  width: 315px;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 20px;
+}
+main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-text p.in-addition-description-top {
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 20px;
+}
+main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-text .in-addition-link {
+  position: relative;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  background: #F1CDB3;
+  border-radius: 9px;
+  padding: 10px 15px 10px 60px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 20px;
+}
+main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-text .in-addition-link .credit-card {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  z-index: 1;
+}
+main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-text .in-addition-description-botton {
+  width: 380px;
+  font-size: 12px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #B2B2B2;
 }
