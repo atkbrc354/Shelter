@@ -24,9 +24,7 @@ html {
 
 .header {
   background: url(../img/start-screen-gradient-background.jpg) no-repeat;
-}
-.header .container {
-  background: url(../img/start-screen-gradient-background.jpg) no-repeat;
+  width: 100%;
 }
 .header .container .wrapper .header_wrapper {
   display: -webkit-box;
@@ -60,10 +58,8 @@ html {
 
 main .Not-only {
   background: url(../img/start-screen-gradient-background.jpg) no-repeat;
+  width: 100%;
   margin-bottom: 80px;
-}
-main .Not-only .container {
-  background: url(../img/start-screen-gradient-background.jpg) no-repeat;
 }
 main .Not-only .container .wrapper .not-only-block {
   display: -webkit-box;
@@ -350,4 +346,48 @@ main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-te
       -ms-flex-align: center;
           align-items: center;
   color: #B2B2B2;
+}
+
+.footer {
+  background: url(noise_lines_transparent@2X.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20 no-repeat;
+}
+.footer .container .wrapper .footer-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer .container .wrapper .footer-blocks .footer-block h2.footer-title {
+  margin-top: 56px;
+  width: 320px;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  margin-bottom: 34px;
+}
+.footer .container .wrapper .footer-blocks .footer-block .footer-description {
+  position: relative;
+  font-size: 20px;
+  margin-left: 50px;
+  width: 280px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+  margin-bottom: 49px;
+}
+.footer .container .wrapper .footer-blocks .footer-block .footer-description .icon-footer {
+  position: absolute;
+  left: -50px;
+}
+.footer .container .wrapper .footer-blocks .footer-block .footer-description .icon-marker {
+  left: -40px;
+}
+.footer .container .wrapper .footer-blocks .footer-block .icon-marker {
+  margin-bottom: 37px;
+}
+.footer .container .wrapper .footer-blocks .footer-block .footer-puppy {
+  margin-top: 40px;
 }
