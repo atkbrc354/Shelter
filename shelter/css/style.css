@@ -1,0 +1,393 @@
+.container {
+  width: 1280px;
+  margin: auto;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Geologica", sans-serif;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background: url(../img/start-screen-gradient-background.jpg) no-repeat;
+  width: 100%;
+}
+.header .container .wrapper .header_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header .container .wrapper .header_wrapper .logo {
+  margin-top: 30px;
+}
+.header .container .wrapper .header_wrapper nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header .container .wrapper .header_wrapper nav ul li {
+  list-style-type: none;
+  padding-top: 46px;
+  padding-left: 20px;
+}
+.header .container .wrapper .header_wrapper nav ul li a {
+  color: #CDCDCD;
+  text-decoration: none;
+}
+.header .container .wrapper .header_wrapper nav ul li a:hover {
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+main .Not-only {
+  background: url(../img/start-screen-gradient-background.jpg) no-repeat;
+  width: 100%;
+  margin-bottom: 80px;
+}
+main .Not-only .container .wrapper .not-only-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .Not-only .container .wrapper .not-only-block .not-only-content {
+  margin-top: 253px;
+}
+main .Not-only .container .wrapper .not-only-block .not-only-content h1.not-only-title {
+  width: 370px;
+  font-size: 44px;
+  line-height: 130%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 42px;
+}
+main .Not-only .container .wrapper .not-only-block .not-only-content p.not-only-description {
+  font-size: 15px;
+  line-height: 160%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #CDCDCD;
+  margin-bottom: 42px;
+}
+main .Not-only .container .wrapper .not-only-block .not-only-content button.not-only-button {
+  background: #FDDCC4;
+  border-radius: 100px;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  padding: 15px 45px;
+  border: none;
+}
+main .Not-only .container .wrapper .not-only-block .not-only-content button.not-only-button:hover {
+  cursor: pointer;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  background: #F1CDB3;
+}
+main .Not-only .container .wrapper .not-only-block .start-screen-puppy {
+  margin-top: 110px;
+}
+main .About {
+  margin-bottom: 100px;
+}
+main .About .container .wrapper .about-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+main .About .container .wrapper .about-block .about-content h2.about-title {
+  width: 370px;
+  font-size: 35px;
+  line-height: 130%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 25px;
+}
+main .About .container .wrapper .about-block .about-content p.about-description {
+  width: 430px;
+  font-size: 15px;
+  line-height: 160%;
+  color: #4C4C4C;
+  margin-bottom: 25px;
+}
+main .About .container .wrapper .about-block .about-content p.about-description-botton {
+  width: 430px;
+  font-size: 15px;
+  line-height: 160%;
+  color: #4C4C4C;
+}
+main .Our-friends {
+  background: #F6F6F6;
+  padding-bottom: 100px;
+}
+main .Our-friends .container .wrapper h2.Our-friends-title {
+  padding-top: 80px;
+  width: 430px;
+  font-size: 35px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+main .Our-friends .container .wrapper .Our-friends-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 60px;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Arrow-left {
+  margin-top: 230px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  padding: 17px 13px;
+  height: 6px;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Arrow-left:hover {
+  background: #FDDCC4;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Arrow-right {
+  margin-top: 230px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  padding: 17px 13px;
+  height: 6px;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Arrow-right:hover {
+  background: #FDDCC4;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Our-friends-card {
+  background: #FAFAFA;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Our-friends-card .pets-katrine {
+  margin-bottom: 30px;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Our-friends-card .pets-jennifer {
+  margin-bottom: 30px;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Our-friends-card .pets-woody {
+  margin-bottom: 30px;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Our-friends-card p.Our-friends-name {
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 30px;
+}
+main .Our-friends .container .wrapper .Our-friends-cards .Our-friends-card button.card-button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: 41px;
+  background: #fff;
+  border-radius: 100px;
+  border: 2px solid #F1CDB3;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  padding: 15px 45px;
+  margin-bottom: 30px;
+}
+main .Our-friends .container .button-our-friends {
+  display: block;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  background: #F1CDB3;
+  border-radius: 100px;
+  border: none;
+  padding: 15px 45px;
+}
+main .Help {
+  margin-bottom: 100px;
+}
+main .Help .container .wrapper h2.help-title {
+  padding-top: 80px;
+  margin: 0 auto;
+  width: 390px;
+  font-size: 35px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 60px;
+}
+main .Help .container .wrapper .help-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 55px 120px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .Help .container .wrapper .help-cards .help-card .icon-pet-food {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+main .Help .container .wrapper .help-cards .help-card .help-card-title {
+  font-size: 20px;
+  line-height: 115%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+main .In-addition {
+  background: #F6F6F6;
+  padding-bottom: 110px;
+}
+main .In-addition .container .wrapper .in-addition-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .In-addition .container .wrapper .in-addition-blocks .donation-dog {
+  margin-top: 91px;
+}
+main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-text {
+  margin-left: 30px;
+}
+main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-text .in-addition-title {
+  margin-top: 80px;
+  width: 315px;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 20px;
+}
+main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-text p.in-addition-description-top {
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 20px;
+}
+main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-text .in-addition-link {
+  position: relative;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  background: #F1CDB3;
+  border-radius: 9px;
+  padding: 10px 15px 10px 60px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 20px;
+}
+main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-text .in-addition-link .credit-card {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  z-index: 1;
+}
+main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-text .in-addition-description-botton {
+  width: 380px;
+  font-size: 12px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #B2B2B2;
+}
+
+.footer {
+  background: url(noise_lines_transparent@2X.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20 no-repeat;
+}
+.footer .container .wrapper .footer-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer .container .wrapper .footer-blocks .footer-block h2.footer-title {
+  margin-top: 56px;
+  width: 320px;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  margin-bottom: 34px;
+}
+.footer .container .wrapper .footer-blocks .footer-block .footer-description {
+  position: relative;
+  font-size: 20px;
+  margin-left: 50px;
+  width: 280px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+  margin-bottom: 49px;
+}
+.footer .container .wrapper .footer-blocks .footer-block .footer-description .icon-footer {
+  position: absolute;
+  left: -50px;
+}
+.footer .container .wrapper .footer-blocks .footer-block .footer-description .icon-marker {
+  left: -40px;
+}
+.footer .container .wrapper .footer-blocks .footer-block .icon-marker {
+  margin-bottom: 37px;
+}
+.footer .container .wrapper .footer-blocks .footer-block .footer-puppy {
+  margin-top: 40px;
+}
