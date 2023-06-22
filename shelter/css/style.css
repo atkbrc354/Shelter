@@ -391,3 +391,12 @@ main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-te
 .footer .container .wrapper .footer-blocks .footer-block .footer-puppy {
   margin-top: 40px;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .wrapper {
+    width: 667px;
+  }
+}
