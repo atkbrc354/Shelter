@@ -1,2 +1,2 @@
 # Shelter
-    https://atkbrc354.github.io/Shelter/shelter/
+    https://atkbrc354.github.io/Shelter/shelter
