@@ -33,8 +33,9 @@ html
     margin: 0
 
 .header  
-    background: url(../img/start-screen-gradient-background.jpg) no-repeat
+    background: url(../img/start-screen-background-1.png) no-repeat
     width: 100%
+    height: 100%
     .container
         .wrapper
             .header_wrapper
@@ -56,8 +57,9 @@ html
                                     transition: all 300ms
 main
     .Not-only
-        background: url(../img/start-screen-gradient-background.jpg) no-repeat
+        background: url(../img/start-screen-background-1.png) no-repeat
         width: 100%
+        height: 100%
         margin-bottom: 80px
         .container
             .wrapper
@@ -102,6 +104,9 @@ main
                 .about-block
                     display: flex
                     justify-content: space-evenly
+                    .about-img
+                        .about-pets
+
                     .about-content
                         h2.about-title
                             width: 370px
@@ -319,6 +324,220 @@ main
         width: 768px
     .wrapper
         width: 667px
+    .header
+        background-image: none
+        background: url(../img/img-tablet/start-screen-gradient-background.png) no-repeat
+    main
+        .Not-only
+            background-image: none
+            background: url(../img/img-tablet/start-screen-gradient-background.png) no-repeat
+            height: 1051px
+            .container
+                .wrapper
+                    .not-only-block
+                        display: block
+                        .not-only-content
+                            margin-top: 0px
+                            padding-top: 60px
+                        img.start-screen-puppy
+                            margin-top: 100px
+                            width: 569px
+                            height: 593px
+        .About
+            .container
+                .wrapper
+                    .about-block
+                        flex-flow: column
+                        align-items: center
+                        .about-content
+                            margin-bottom: 80px
+                            order: 1
+                        .about-img
+                            order: 2
+        .Our-friends
+            .container
+                .wrapper
+                    .Our-friends-cards
+                        #friends-card-3
+                            display: none
+        .Help
+            .container
+                .wrapper
+                    .help-cards
+                        gap: 55px 100px
+        .In-addition
+            .container
+                .wrapper
+                    .in-addition-blocks
+                        flex-flow: column
+                        align-items: center
+                        .in-addition-blocks-text
+                            order: 1
+                        .donation-dog
+                            order: 2
+    .footer
+        background: url(../img/img-tablet/footer-gradient-background-tablet.png) no-repeat
+        height: 639px
+        .container
+            .wrapper
+                .footer-blocks
+                    position: relative
+                    .footer-block-puppy
+                        position: absolute
+                        top: 329px
+                        left: 170px
+
+@media screen and (max-width: 320px)
+    .container
+        width: 320px
+    .wrapper
+        width: 280px
+    .header
+        .container
+            .wrapper
+                nav
+                    display: none
+    main
+        .Not-only
+            height: 751px
+            .container
+                .wrapper
+                    .not-only-block
+                        display: flex
+                        flex-flow: column
+                        align-items: center
+                        .not-only-content
+                            h1.not-only-title
+                                width: 300px
+                                text-align: center
+                                font-size: 25px
+                            p.not-only-description
+                                width: 300px
+                                font-size: 15px
+                                text-align: center
+                            button.not-only-button
+                                display: flex
+                                margin: 0 auto
+                        img.start-screen-puppy
+                            width: 260px
+                            height: 271px
+        .About
+            .container
+                .wrapper
+                    .about-block
+                        .about-content
+                            h2.about-title 
+                                font-size: 25px
+                                width: 300px
+                                text-align: center
+                                margin: 0 auto
+                                margin-bottom: 25px
+                            p.about-description
+                                width: 270px
+                                margin: 0 auto
+                                margin-bottom: 25px
+                            p.about-description-botton
+                                width: 270px
+                                margin: 0 auto
+        .Our-friends
+            .container
+                .wrapper
+                    h2.Our-friends-title
+                        font-size: 25px
+                        width: 310px
+                        margin-left: -15px
+                    .Our-friends-cards
+                        align-items: center
+                        flex-wrap: wrap
+                        #friends-card-1
+                            order: 1
+                        .Arrow-left
+                            order: 2
+                            margin-top: 20px
+                        .Arrow-right
+                            order: 2
+                            margin-top: 20px
+                        #friends-card-2
+                            display: none
+        .Help
+            .container
+                .wrapper
+                    h2.help-title
+                        font-size: 25px
+                        width: 235px
+                    .help-cards
+                        gap: 55px 63px
+                        .help-card
+                            .icon-pet-food
+                                max-width: 50px
+                            h4.help-card-title
+                                font-size: 15px
+                                justify-content: center
+                                line-height: 110%
+                                letter-spacing: 0.9px
+        .In-addition
+            .container
+                .wrapper
+                    .in-addition-blocks
+                        img.donation-dog
+                            width: 260px
+                            height: 135px
+                        .in-addition-blocks-text
+                            h2.in-addition-title
+                                font-size: 25px
+                                width: 300px
+                                text-align: center
+                                margin: 0 auto
+                                margin-left: -15px
+                                margin-top: 42px
+                                margin-bottom: 20px
+                            p.in-addition-description-top
+                                width: 273px
+                                text-align: center
+                                margin: 20px auto
+                                line-height: 160%
+                            a.in-addition-link
+                                font-size: 15px
+                                margin-left: -15px
+                            p.in-addition-description-botton
+                                font-size: 12px
+                                width: 280px
+                                text-align: justify
+    .footer
+        background: url(../img/img-mobile/footer-gradient-background-mobile.png) no-repeat
+        height: 809px
+        .container
+            .wrapper
+                .footer-blocks
+                    flex-flow: column
+                    align-items: center
+                    .footer-block
+                        order: 1
+                        width: 300px
+                        h2.footer-title
+                            font-size: 25px
+                            text-align: center
+                            width: 278px
+                            margin-right: 0
+                            margin: 0 auto
+                            margin-top: 30px
+                            margin-bottom: 30px
+                        p.footer-description
+                            width: 250px
+                        p.footer-description-mobile
+                            margin-left: 56px
+                            width: 250px
+                    .footer-block-puppy
+                        top: 540px
+                        left: 0px
+                        img.footer-puppy
+                            width: 260px
+                            height: 269px
+
+
+
+
+    
                     
 
 
