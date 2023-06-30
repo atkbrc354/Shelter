@@ -23,8 +23,9 @@ html {
 }
 
 .header {
-  background: url(../img/start-screen-gradient-background.jpg) no-repeat;
+  background: url(../img/start-screen-background-1.png) no-repeat;
   width: 100%;
+  height: 100%;
 }
 .header .container .wrapper .header_wrapper {
   display: -webkit-box;
@@ -57,8 +58,9 @@ html {
 }
 
 main .Not-only {
-  background: url(../img/start-screen-gradient-background.jpg) no-repeat;
+  background: url(../img/start-screen-background-1.png) no-repeat;
   width: 100%;
+  height: 100%;
   margin-bottom: 80px;
 }
 main .Not-only .container .wrapper .not-only-block {
@@ -398,5 +400,266 @@ main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-te
   }
   .wrapper {
     width: 667px;
+  }
+  .header {
+    background-image: none;
+    background: url(../img/img-tablet/start-screen-gradient-background.png) no-repeat;
+  }
+  main .Not-only {
+    background-image: none;
+    background: url(../img/img-tablet/start-screen-gradient-background.png) no-repeat;
+    height: 1051px;
+  }
+  main .Not-only .container .wrapper .not-only-block {
+    display: block;
+  }
+  main .Not-only .container .wrapper .not-only-block .not-only-content {
+    margin-top: 0px;
+    padding-top: 60px;
+  }
+  main .Not-only .container .wrapper .not-only-block img.start-screen-puppy {
+    margin-top: 100px;
+    width: 569px;
+    height: 593px;
+  }
+  main .About .container .wrapper .about-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .About .container .wrapper .about-block .about-content {
+    margin-bottom: 80px;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  main .About .container .wrapper .about-block .about-img {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  main .Our-friends .container .wrapper .Our-friends-cards #friends-card-3 {
+    display: none;
+  }
+  main .Help .container .wrapper .help-cards {
+    gap: 55px 100px;
+  }
+  main .In-addition .container .wrapper .in-addition-blocks {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-text {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  main .In-addition .container .wrapper .in-addition-blocks .donation-dog {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .footer {
+    background: url(../img/img-tablet/footer-gradient-background-tablet.png) no-repeat;
+    height: 639px;
+  }
+  .footer .container .wrapper .footer-blocks {
+    position: relative;
+  }
+  .footer .container .wrapper .footer-blocks .footer-block-puppy {
+    position: absolute;
+    top: 329px;
+    left: 170px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    width: 320px;
+  }
+  .wrapper {
+    width: 280px;
+  }
+  .header .container .wrapper nav {
+    display: none;
+  }
+  main .Not-only {
+    height: 751px;
+  }
+  main .Not-only .container .wrapper .not-only-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .Not-only .container .wrapper .not-only-block .not-only-content h1.not-only-title {
+    width: 300px;
+    text-align: center;
+    font-size: 25px;
+  }
+  main .Not-only .container .wrapper .not-only-block .not-only-content p.not-only-description {
+    width: 300px;
+    font-size: 15px;
+    text-align: center;
+  }
+  main .Not-only .container .wrapper .not-only-block .not-only-content button.not-only-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+  }
+  main .Not-only .container .wrapper .not-only-block img.start-screen-puppy {
+    width: 260px;
+    height: 271px;
+  }
+  main .About .container .wrapper .about-block .about-content h2.about-title {
+    font-size: 25px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  main .About .container .wrapper .about-block .about-content p.about-description {
+    width: 270px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  main .About .container .wrapper .about-block .about-content p.about-description-botton {
+    width: 270px;
+    margin: 0 auto;
+  }
+  main .Our-friends .container .wrapper h2.Our-friends-title {
+    font-size: 25px;
+    width: 310px;
+    margin-left: -15px;
+  }
+  main .Our-friends .container .wrapper .Our-friends-cards {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .Our-friends .container .wrapper .Our-friends-cards #friends-card-1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  main .Our-friends .container .wrapper .Our-friends-cards .Arrow-left {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-top: 20px;
+  }
+  main .Our-friends .container .wrapper .Our-friends-cards .Arrow-right {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-top: 20px;
+  }
+  main .Our-friends .container .wrapper .Our-friends-cards #friends-card-2 {
+    display: none;
+  }
+  main .Help .container .wrapper h2.help-title {
+    font-size: 25px;
+    width: 235px;
+  }
+  main .Help .container .wrapper .help-cards {
+    gap: 55px 63px;
+  }
+  main .Help .container .wrapper .help-cards .help-card .icon-pet-food {
+    max-width: 50px;
+  }
+  main .Help .container .wrapper .help-cards .help-card h4.help-card-title {
+    font-size: 15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    line-height: 110%;
+    letter-spacing: 0.9px;
+  }
+  main .In-addition .container .wrapper .in-addition-blocks img.donation-dog {
+    width: 260px;
+    height: 135px;
+  }
+  main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-text h2.in-addition-title {
+    font-size: 25px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: -15px;
+    margin-top: 42px;
+    margin-bottom: 20px;
+  }
+  main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-text p.in-addition-description-top {
+    width: 273px;
+    text-align: center;
+    margin: 20px auto;
+    line-height: 160%;
+  }
+  main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-text a.in-addition-link {
+    font-size: 15px;
+    margin-left: -15px;
+  }
+  main .In-addition .container .wrapper .in-addition-blocks .in-addition-blocks-text p.in-addition-description-botton {
+    font-size: 12px;
+    width: 280px;
+    text-align: justify;
+  }
+  .footer {
+    background: url(../img/img-mobile/footer-gradient-background-mobile.png) no-repeat;
+    height: 809px;
+  }
+  .footer .container .wrapper .footer-blocks {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .container .wrapper .footer-blocks .footer-block {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 300px;
+  }
+  .footer .container .wrapper .footer-blocks .footer-block h2.footer-title {
+    font-size: 25px;
+    text-align: center;
+    width: 278px;
+    margin-right: 0;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .footer .container .wrapper .footer-blocks .footer-block p.footer-description {
+    width: 250px;
+  }
+  .footer .container .wrapper .footer-blocks .footer-block p.footer-description-mobile {
+    margin-left: 56px;
+    width: 250px;
+  }
+  .footer .container .wrapper .footer-blocks .footer-block-puppy {
+    top: 540px;
+    left: 0px;
+  }
+  .footer .container .wrapper .footer-blocks .footer-block-puppy img.footer-puppy {
+    width: 260px;
+    height: 269px;
   }
 }
