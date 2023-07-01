@@ -33,16 +33,14 @@ html
     margin: 0
 
 .header  
-    background: url(../img/start-screen-background-1.png) no-repeat
-    width: 100%
-    height: 100%
     .container
         .wrapper
             .header_wrapper
                 display: flex
                 justify-content: space-between
-                .logo
-                    margin-top: 30px
+                a
+                    .logo
+                        margin-top: 30px
                 nav
                     ul
                         display: flex
@@ -53,13 +51,14 @@ html
                             a
                                 color: $Smoky-white
                                 text-decoration: none
+                            a.active
+                                border-bottom: 3px solid #F1CDB3
                                 &:hover
                                     transition: all 300ms
 main
     .Not-only
-        background: url(../img/start-screen-background-1.png) no-repeat
-        width: 100%
-        height: 100%
+        background: url(<path-to-image>), radial-gradient(237.50% 111.80% at 0% 0%, #5B483A 0%, #262425 100%), #211F20
+        margin-top: -90px
         margin-bottom: 80px
         .container
             .wrapper
@@ -74,6 +73,7 @@ main
                             display: flex
                             align-items: center
                             color: #FFFFFF
+                            margin-top: 100px
                             margin-bottom: 42px
                         p.not-only-description
                             font-size: 15px
@@ -96,7 +96,7 @@ main
                                 transition: all 300ms
                                 background: #F1CDB3
                     .start-screen-puppy
-                        margin-top: 110px
+                        margin-top: 210px
     .About
         margin-bottom: 100px
         .container
@@ -316,9 +316,10 @@ main
                             left: -40px
                     .icon-marker
                         margin-bottom: 37px
-                    .footer-puppy
-                        margin-top: 40px
-
+                .footer-block-puppy
+                     margin-top: 40px
+                     display: block
+                     height: 310px
 @media screen and (max-width: 768px)
     .container
         width: 768px
@@ -339,10 +340,12 @@ main
                         .not-only-content
                             margin-top: 0px
                             padding-top: 60px
+                            p.not-only-description
+                                width: 420px
                         img.start-screen-puppy
-                            margin-top: 100px
-                            width: 569px
-                            height: 593px
+                            margin-top: 76px
+                            width: 469px
+                            height: 493px
         .About
             .container
                 .wrapper
@@ -384,7 +387,7 @@ main
                     position: relative
                     .footer-block-puppy
                         position: absolute
-                        top: 329px
+                        top: 289px
                         left: 170px
 
 @media screen and (max-width: 320px)
@@ -419,8 +422,9 @@ main
                                 display: flex
                                 margin: 0 auto
                         img.start-screen-puppy
-                            width: 260px
-                            height: 271px
+                            width: 180px
+                            height: 191px
+                            margin-top: 79px
         .About
             .container
                 .wrapper
@@ -530,9 +534,11 @@ main
                     .footer-block-puppy
                         top: 540px
                         left: 0px
+                        width: 220px
+                        height: 229px
                         img.footer-puppy
-                            width: 260px
-                            height: 269px
+                            width: 220px
+                            height: 229px
 
 
 

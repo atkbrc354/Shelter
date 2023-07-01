@@ -1,0 +1,182 @@
+$purple-white: #FDDCC4
+$gray: #717171
+$dark-grey: #292929
+$Smoky-white: #CDCDCD
+$black: #444444
+
+
+@mixin geologica-font
+    font-family: 'Geologica', sans-serif
+    font-weight: 400
+
+.container
+    width: 1280px
+    margin: auto
+
+.wrapper
+    max-width: 1200px
+    margin: 0 auto
+
+@mixin georgian-font
+    font-family: 'Noto Serif Georgian', serif
+    font-weight: 700
+    color: $dark-grey
+
+body
+    @include geologica-font
+
+html
+    scroll-behavior: smooth
+
+*
+    padding: 0
+    margin: 0
+
+.header  
+    margin-bottom: 30px
+    .container
+        .wrapper
+            .header_wrapper
+                display: flex
+                justify-content: space-between
+                a
+                    .logo
+                        margin-top: 30px
+                nav
+                    ul
+                        display: flex
+                        li
+                            list-style-type: none
+                            padding-top: 46px
+                            padding-left: 20px
+                            a
+                                color: #545454
+                                text-decoration: none
+                            a.active
+                                border-bottom: 3px solid #F1CDB3
+                                &:hover
+                                    transition: all 300ms
+.Our-friends
+    padding-top: 80px
+    padding-bottom: 100px
+    background: #F6F6F6
+    .container
+            .wrapper
+                h2.our-friends-title
+                    font-size: 35px
+                    font-family: Georgia
+                    font-style: normal
+                    line-height: 130%
+                    letter-spacing: 2.1px
+                    width: 415px
+                    text-align: center
+                    color: #545454
+                    margin: 0 auto
+                    margin-bottom: 60px
+                .Our-friends-cards
+                    display: flex
+                    justify-content: space-around
+                    flex-wrap: wrap
+                    gap: 30px 40px
+                    margin-bottom: 60px
+                    .Our-friends-card
+                        background: #FAFAFA
+                        .pets-katrine
+                            margin-bottom: 30px
+                        .pets-jennifer
+                            margin-bottom: 30px
+                        .pets-woody
+                            margin-bottom: 30px
+                        p.Our-friends-name
+                            font-size: 20px
+                            line-height: 23px
+                            text-align: center
+                            letter-spacing: 0.06em
+                            color: #545454
+                            margin-bottom: 30px
+                        button.card-button
+                            box-sizing: border-box
+                            margin-left: 41px
+                            background: #fff
+                            border-radius: 100px
+                            border: 2px solid #F1CDB3
+                            font-size: 17px
+                            text-align: center
+                            letter-spacing: 0.06em
+                            line-height: 130%
+                            letter-spacing: 0.06em
+                            color: #292929
+                            padding: 15px 45px
+                            margin-bottom: 30px
+                .block-arrow
+                    display: flex
+                    width: 340px
+                    margin: 0 auto
+                    .Arrow-left
+                        display: flex
+                        margin: 0 auto
+                        border: 2px solid #F1CDB3
+                        border-radius: 100px
+                        padding: 17px 13px
+                        height: 6px
+                        &:hover
+                            background: #FDDCC4
+                            transition: all 300ms
+                    .Arrow-right
+                        display: flex
+                        margin: 0 auto
+                        border: 2px solid #F1CDB3
+                        border-radius: 100px
+                        padding: 17px 13px
+                        height: 6px
+                        &:hover
+                            background: #FDDCC4
+                            transition: all 300ms
+            .button-our-friends
+                display: block
+                margin: 0 auto
+                font-size: 17px
+                line-height: 130%
+                letter-spacing: 0.06em
+                color: #292929
+                background: #F1CDB3
+                border-radius: 100px
+                border: none
+                padding: 15px 45px
+    
+.footer
+    background: url(noise_lines_transparent@2X.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20 no-repeat
+    .container
+        .wrapper
+            .footer-blocks
+                display: flex
+                justify-content: space-between
+                .footer-block
+                    h2.footer-title
+                        margin-top: 56px
+                        width: 320px
+                        font-size: 35px
+                        line-height: 130%
+                        letter-spacing: 0.06em
+                        color: #FFFFFF
+                        margin-bottom: 34px
+                    .footer-description
+                        position: relative
+                        font-size: 20px
+                        margin-left: 50px
+                        width: 280px
+                        line-height: 115%
+                        letter-spacing: 0.06em
+                        color: #F1CDB3
+                        margin-bottom: 49px
+                        .icon-footer
+                            position: absolute
+                            left: -50px
+                        .icon-marker
+                            left: -40px
+                    .icon-marker
+                        margin-bottom: 37px
+                .footer-block-puppy
+                     margin-top: 40px
+                     display: block
+                     height: 310px
