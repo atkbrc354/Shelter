@@ -43,6 +43,9 @@ html
                     .logo
                         margin-top: 30px
                 nav
+                    img.Burger
+                        display: none
+                        margin-top: 49px
                     ul
                         display: flex
                         li
@@ -180,3 +183,74 @@ html
                      margin-top: 40px
                      display: block
                      height: 310px
+@media screen and (max-width: 768px)
+    .container
+        width: 768px
+    .wrapper
+        width: 667px
+    .footer
+        background: url(../img/img-tablet/footer-gradient-background-tablet.png) no-repeat
+        height: 639px
+        .container
+            .wrapper
+                .footer-blocks
+                    position: relative
+                    .footer-block-puppy
+                        position: absolute
+                        top: 289px
+                        left: 170px
+@media screen and (max-width: 320px)
+    .container
+        width: 320px
+    .wrapper
+        width: 280px
+    .header
+        .container
+            .wrapper
+                .header_wrapper
+                    nav
+                        img.Burger
+                            display: block
+                        ul.header-list
+                            display: none
+    .Our-friends
+        .container
+            .wrapper
+                h2.our-friends-title
+                    margin-left: -5px
+                    font-size: 25px
+                    width: 300px
+                .block-arrow
+                    width: 300px
+    .footer
+        background: url(../img/img-mobile/footer-gradient-background-mobile.png) no-repeat
+        height: 809px
+        .container
+            .wrapper
+                .footer-blocks
+                    flex-flow: column
+                    align-items: center
+                    .footer-block
+                        order: 1
+                        width: 300px
+                        h2.footer-title
+                            font-size: 25px
+                            text-align: center
+                            width: 278px
+                            margin-right: 0
+                            margin: 0 auto
+                            margin-top: 30px
+                            margin-bottom: 30px
+                        p.footer-description
+                            width: 250px
+                        p.footer-description-mobile
+                            margin-left: 56px
+                            width: 250px
+                    .footer-block-puppy
+                        top: 540px
+                        left: 0px
+                        width: 220px
+                        height: 229px
+                        img.footer-puppy
+                            width: 220px
+                            height: 229px

@@ -36,6 +36,10 @@ html {
 .header .container .wrapper .header_wrapper a .logo {
   margin-top: 30px;
 }
+.header .container .wrapper .header_wrapper nav img.Burger {
+  display: none;
+  margin-top: 49px;
+}
 .header .container .wrapper .header_wrapper nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -216,4 +220,92 @@ html {
   margin-top: 40px;
   display: block;
   height: 310px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .wrapper {
+    width: 667px;
+  }
+  .footer {
+    background: url(../img/img-tablet/footer-gradient-background-tablet.png) no-repeat;
+    height: 639px;
+  }
+  .footer .container .wrapper .footer-blocks {
+    position: relative;
+  }
+  .footer .container .wrapper .footer-blocks .footer-block-puppy {
+    position: absolute;
+    top: 289px;
+    left: 170px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    width: 320px;
+  }
+  .wrapper {
+    width: 280px;
+  }
+  .header .container .wrapper .header_wrapper nav img.Burger {
+    display: block;
+  }
+  .header .container .wrapper .header_wrapper nav ul.header-list {
+    display: none;
+  }
+  .Our-friends .container .wrapper h2.our-friends-title {
+    margin-left: -5px;
+    font-size: 25px;
+    width: 300px;
+  }
+  .Our-friends .container .wrapper .block-arrow {
+    width: 300px;
+  }
+  .footer {
+    background: url(../img/img-mobile/footer-gradient-background-mobile.png) no-repeat;
+    height: 809px;
+  }
+  .footer .container .wrapper .footer-blocks {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .container .wrapper .footer-blocks .footer-block {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 300px;
+  }
+  .footer .container .wrapper .footer-blocks .footer-block h2.footer-title {
+    font-size: 25px;
+    text-align: center;
+    width: 278px;
+    margin-right: 0;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .footer .container .wrapper .footer-blocks .footer-block p.footer-description {
+    width: 250px;
+  }
+  .footer .container .wrapper .footer-blocks .footer-block p.footer-description-mobile {
+    margin-left: 56px;
+    width: 250px;
+  }
+  .footer .container .wrapper .footer-blocks .footer-block-puppy {
+    top: 540px;
+    left: 0px;
+    width: 220px;
+    height: 229px;
+  }
+  .footer .container .wrapper .footer-blocks .footer-block-puppy img.footer-puppy {
+    width: 220px;
+    height: 229px;
+  }
 }
