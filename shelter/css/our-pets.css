@@ -139,9 +139,13 @@ html {
   display: flex;
   margin: 0 auto;
   border: 2px solid #F1CDB3;
+  width: 52px;
+  height: 52px;
+  font-size: 20px;
+  line-height: 23px;
   border-radius: 100px;
-  padding: 17px 13px;
-  height: 6px;
+  padding: 14px 0px 15px 0px;
+  height: 11px;
 }
 .Our-friends .container .wrapper .block-arrow .Arrow-left:hover {
   background: #FDDCC4;
@@ -154,9 +158,10 @@ html {
   display: flex;
   margin: 0 auto;
   border: 2px solid #F1CDB3;
+  width: 52px;
   border-radius: 100px;
-  padding: 17px 13px;
-  height: 6px;
+  padding: 14px 0px 15px 0px;
+  height: 11px;
 }
 .Our-friends .container .wrapper .block-arrow .Arrow-right:hover {
   background: #FDDCC4;
