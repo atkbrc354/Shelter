@@ -109,7 +109,6 @@ main
                     justify-content: space-evenly
                     .about-img
                         .about-pets
-
                     .about-content
                         h2.about-title
                             width: 370px
@@ -133,6 +132,7 @@ main
     .Our-friends
         background: #F6F6F6
         padding-bottom: 100px
+        position: relative
         .container
             .wrapper
                 h2.Our-friends-title
@@ -145,30 +145,40 @@ main
                     color: #545454
                     margin: 0 auto
                     margin-bottom: 60px
+                .Arrow-left
+                    position: absolute
+                    top: 50%
+                    left: 30px
+                    border: 2px solid #F1CDB3
+                    border-radius: 100px
+                    padding: 17px 13px
+                    height: 6px
+                    &:hover
+                        background: #FDDCC4
+                        transition: all 300ms
+                .Arrow-right
+                    position: absolute
+                    top: 50%
+                    right: 30px
+                    border: 2px solid #F1CDB3
+                    border-radius: 100px
+                    padding: 17px 13px
+                    height: 6px
+                    &:hover
+                        background: #FDDCC4
+                        transition: all 300ms
                 .Our-friends-cards
                     display: flex
-                    justify-content: space-around
                     margin-bottom: 60px
-                    .Arrow-left
-                        margin-top: 230px
-                        border: 2px solid #F1CDB3
-                        border-radius: 100px
-                        padding: 17px 13px
-                        height: 6px
-                        &:hover
-                            background: #FDDCC4
-                            transition: all 300ms
-                    .Arrow-right
-                        margin-top: 230px
-                        border: 2px solid #F1CDB3
-                        border-radius: 100px
-                        padding: 17px 13px
-                        height: 6px
-                        &:hover
-                            background: #FDDCC4
-                            transition: all 300ms
+                    overflow: hidden
+                    max-width: 90%
+                    cursor: pointer
+                    scroll-behavior: smooth
                     .Our-friends-card
                         background: #FAFAFA
+                        object-fit: cover
+                        margin-left: 90px
+                        width: calc(100%/3)
                         .pets-katrine
                             margin-bottom: 30px
                         .pets-jennifer
@@ -364,8 +374,10 @@ main
             .container
                 .wrapper
                     .Our-friends-cards
-                        #friends-card-3
-                            display: none
+                        .Our-friends-card
+                            margin-left: 40px
+                            width: calc(100%/2)
+
         .Help
             .container
                 .wrapper
@@ -457,19 +469,16 @@ main
                         font-size: 25px
                         width: 310px
                         margin-left: -15px
+                    .Arrow-left
+                        top: 80%
+                    .Arrow-right
+                        top: 80%
                     .Our-friends-cards
-                        align-items: center
-                        flex-wrap: wrap
-                        #friends-card-1
-                            order: 1
-                        .Arrow-left
-                            order: 2
-                            margin-top: 20px
-                        .Arrow-right
-                            order: 2
-                            margin-top: 20px
-                        #friends-card-2
-                            display: none
+                        margin-bottom: 114px
+                        max-width: 100%
+                        .Our-friends-card
+                            width: 270px
+                            margin-left: 0px
         .Help
             .container
                 .wrapper
